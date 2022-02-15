@@ -42,7 +42,7 @@ const Form = () => {
                 </div>
 
                 <button type="submit" onClick={notify}>Register</button>
-                
+                <ToastContainer />
             </form>
         </div>
     )
